@@ -1,0 +1,264 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CV/Resume
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper]{resume}
+
+%\usepackage[russian, english]{babel}
+
+\defaultfontfeatures{Mapping=tex-text} % нужен для того чтобы работали стандартные сочетания символов ---, — << >> и т.п. 
+
+\begin{document}
+%----------------------------------------------------------------------------------------\frac{num}{den}
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Максимов}{Иван}{ % Your name
+%\urlstyle{same}\url{http://iv-maksimov.github.io} \\ 
+\href{mailto:iv\_maksimov@mail.ru}{iv\_maksimov@mail.ru} | +7 (905) 571-82-22 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Образование} 
+
+\subsection{МГТУ им. Баумана}
+
+\descript{Специалист \\ 2007 -- 2013}
+\location{Ядерные реакторы и энергетические установки}
+\location{Средний балл: N/A}
+
+\sectionspace % Some whitespace after the section
+
+\descript{Кандидат технических наук \\ 2014 -- по настоящее время}
+\location{05.14.03, Ядерные энергетические установки, включая проектирование, эксплуатацию и вывод из эксплуатации}
+Методы анализа и алгоритмы для программного комплекса системы обнаружения свободных и слабозакрепленных предметов в контуре циркуляции теплоносителя реакторных установок с ВВЭР
+
+\sectionspace
+\subsection{COURSERA}
+\vspace{\topsep}
+\begin{tightitemize}
+	\item Machine Learning
+\end{tightitemize}
+
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Ссылки} 
+
+Github:// \href{https://github.com/iv-maksimov}{\bf iv-maksimov} \\
+%LinkedIn:// \href{https://www.linkedin.com/profile/view?id=338366001&trk=spm_pic}{\bf debarghyadas} \\
+VK:// \href{http://vk.com/iv\_maksimov}{\bf iv\_maksimov}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Знание языков}
+Русский — родной \\
+Английский — читаю профессиональную литературу
+
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Навыки}
+
+\subsection{Данные}
+SQLite \textbullet{} PostgreSQL \textbullet {}JSON
+\sectionspace
+
+\subsection{Программирование}
+
+\location{Более 5000 строк:}
+Python + (numpy, scipy, pandas, sklearn)
+
+\location{Знаком с:}
+SQL \textbullet{} HTML/CSS \textbullet{} \LaTeX\ \textbullet{} Django
+
+\sectionspace
+
+\subsection{Технологии}
+
+git \textbullet{}  R \textbullet{} Octave \textbullet{} CUDA (Theano)
+
+\sectionspace
+
+
+\subsection{Машинное обучение}
+\location{Supervised learning}
+Linear Regression\textbullet{} Logistic Regression\textbullet{} NN\textbullet{} SVM\textbullet{} Decision Trees
+\location{Unsupervised learning}
+K-means clustering \textbullet{} Anomaly Detection \textbullet{} PCA
+\sectionspace % Some whitespace after the section
+
+
+
+\subsection{Визуализация}
+matplotlib (Python) \textbullet{} bokeh (Python) \textbullet{} Adobe Photoshop \textbullet{} Gephi
+\sectionspace
+
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Опыт работы}
+
+\runsubsection{ФГУП ММПП <<Салют>>}
+\descript{| KPCB Fellow + Software Engineering Intern}
+
+\location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{ОАО <<Плутон>>}
+\descript{| Software Engineering Intern}
+
+\location{May 2013 – Aug 2013 | Mountain View, CA}
+\begin{tightitemize}
+\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.
+\item Created a backbone.js-like framework for the Captions editor.
+\item All code was reviewed, perfected, and pushed to production.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{ЗАО <<НТЦ Диапром>>}
+\descript{| Open Source Contributor \& Team Leader}
+
+\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\begin{tightitemize}
+\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
+\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.
+\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Research}
+
+\runsubsection{Cornell Robot Learning Lab}
+\descript{| Head Undergrad Research}
+
+\location{Jan 2014 – Present | Ithaca, NY}
+Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Cornell Phonetics Lab}
+\descript{| Head Undergraduate Researcher}
+
+\location{Mar 2012 – May 2013 | Ithaca, NY}
+Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+\section{Awards} 
+
+\begin{tabular}{rll}
+2014	 & top 52/2500 & KPCB Engineering Fellow\\
+2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
+2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
+2013	 & National & Jump Trading Challenge Finalist\\
+2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
+2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+2010 & National & Comp. Soc. of India's National Programming Contest\\
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+\section{Societies} 
+
+\begin{tabular}{rll}
+2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
+2014 & National & The Global Leadership and Education Forum (tGELF)\\
+2012 & National & Golden Key International Honor Society\\
+2012 & National & National Society of Collegiate Scholars\\
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
