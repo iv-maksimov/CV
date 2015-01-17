@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[hmargin=1.5cm, vmargin=2.00cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage{hyperref} % Required for links
 
 %----------------------------------------------------------------------------------------
@@ -42,7 +42,7 @@
 \setlength{\TPHorizModule}{0.01\paperwidth} % Sets the units for the horizontal position used in the \begin{textblock} argument
 \setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
 \newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
-\begin{textblock}{25}(75,3) % The position of the Last Updated text on the page (75% of the page across, 2% down)
+\begin{textblock}{25}(75,5) % The position of the Last Updated text on the page (75% of the page across, 2% down)
 \color{date}\fontspec{Raleway Thin}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Обновлено \today % Last Updated text
 \end{textblock}}

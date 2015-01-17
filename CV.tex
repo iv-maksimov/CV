@@ -4,7 +4,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper]{resume}
-
+\fontsize{14pt}{18pt}
 %\usepackage[russian, english]{babel}
 
 \defaultfontfeatures{Mapping=tex-text} % нужен для того чтобы работали стандартные сочетания символов ---, — << >> и т.п. 
@@ -25,7 +25,7 @@
 %	LEFT COLUMN
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.35\textwidth} {\Large }
 %------------------------------------------------
 % Education
 %------------------------------------------------
@@ -123,14 +123,14 @@ matplotlib (Python) \textbullet{} bokeh (Python) \textbullet{} Adobe Photoshop \
 
 %----------------------------------------------------------------------------------------
 
-\end{minipage} % The end of the left column
+\end{minipage} {\Large }% The end of the left column
 \hfill
 %
 %----------------------------------------------------------------------------------------
 %	RIGHT COLUMN
 %----------------------------------------------------------------------------------------
 %
-\begin{minipage}[t]{0.66\textwidth} % 
+\begin{minipage}[t]{0.63\textwidth} % 
 %------------------------------------------------
 % Experience
 %------------------------------------------------
@@ -138,7 +138,7 @@ matplotlib (Python) \textbullet{} bokeh (Python) \textbullet{} Adobe Photoshop \
 \section{Опыт работы}
 
 \runsubsection{ФГУП «НПЦ газотурбостроения «Салют»}
-\descript{| Инженер}
+\descript{\\Инженер}
 
 \location{Август 2010 — Сентябрь 2011}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
@@ -152,7 +152,7 @@ matplotlib (Python) \textbullet{} bokeh (Python) \textbullet{} Adobe Photoshop \
 %------------------------------------------------
 
 \runsubsection{ОАО <<Плутон>>}
-\descript{| Инженер баз данных}
+\descript{\\Инженер баз данных}
 \location{Февраль 2012 — Февраль 2013}
 \begin{tightitemize}
 \item Администрирование и ведение БД MS Access.
@@ -164,12 +164,12 @@ matplotlib (Python) \textbullet{} bokeh (Python) \textbullet{} Adobe Photoshop \
 %------------------------------------------------
 
 \runsubsection{ЗАО <<НТЦ <<Диапром>>}
-\descript{| Аналитик}
+\descript{\\Аналитик}
 \location{Апрель 2012 — по настоящее время}
 \begin{tightitemize}
 \item Обработка сигналов акселерометров и датчиков перемещений систем диагностирования реакторных установок. Корреляционный и спектральный анализ с применением Python + numpy/scipy.
 \item Выделение диагностических признаков сигналов (data mining). Задачи регрессии и классификации.
-\item Написание технических отчетов и документации.
+\item Написание технических отчетов и методик диагностирования.
 \end{tightitemize}
 
 \sectionspace 
@@ -182,6 +182,10 @@ matplotlib (Python) \textbullet{} bokeh (Python) \textbullet{} Adobe Photoshop \
 \runsubsection{Диссертация}
 
 Методы анализа и алгоритмы для программного комплекса системы обнаружения свободных и слабозакрепленных предметов в контуре циркуляции теплоносителя реакторных установок с ВВЭР.
+
+\sectionspace 
+
+\runsubsection{ЗАО <<НТЦ <<Диапром>>}
 
 %----------------------------------------------------------------------------------------
 
