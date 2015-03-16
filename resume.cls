@@ -43,7 +43,7 @@
 \setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
 \newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
 \begin{textblock}{25}(75,5) % The position of the Last Updated text on the page (75% of the page across, 2% down)
-\color{date}\fontspec{Raleway Thin}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
+\color{date}\fontspec{Lato Light}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Обновлено \today % Last Updated text
 \end{textblock}}
 
@@ -54,12 +54,12 @@
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
 \centering{ % Center the name
 \fontsize{40pt}{60pt} % Font size
-\fontspec{Lato}\selectfont #1 % First name font
+\fontspec{Lato Medium}\selectfont #1 % First name font
 \fontspec{Lato Light}\selectfont #2 % Last name font
 } \\[5pt] % Whitespace between the name and contact information
 \centering{ % Center the contact information
 \color{headings} % Use the headings color
-\fontspec{Raleway Medium}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
+\fontspec{Raleway}\fontsize{13pt}{14pt}\selectfont #3} % Contact information font
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
 \vspace{-5pt} % Reduce whitespace after the rule slightly
 }
@@ -78,10 +78,10 @@
 \color{headings}\scshape\fontspec{Lato-Light}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
 \titleformat{\subsection}{ % Customize the subsections and places worked/studied titles
-\color{subheadings}\fontspec{Lato Bold}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec{Lato}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{ % Used for creating subsections where a description is required on the same line
-\color{subheadings}\fontspec{Lato Bold}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec{Lato}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
 \color{subheadings}\raggedright\scshape\fontspec{Raleway Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
