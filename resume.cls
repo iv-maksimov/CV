@@ -51,15 +51,23 @@
 %	MAIN HEADING COMMAND
 %----------------------------------------------------------------------------------------
 
-\newcommand{\namesection}[3]{ % Defines the command for the main heading
+\newcommand{\namesection}[4]{ % Defines the command for the main heading
 \centering{ % Center the name
 \fontsize{40pt}{60pt} % Font size
 \fontspec{Lato Medium}\selectfont #1 % First name font
 \fontspec{Lato Light}\selectfont #2 % Last name font
 } \\[5pt] % Whitespace between the name and contact information
+
 \centering{ % Center the contact information
 \color{headings} % Use the headings color
-\fontspec{Raleway}\fontsize{13pt}{14pt}\selectfont #3} % Contact information font
+\fontspec{Raleway}\fontsize{13pt}{14pt}\selectfont #3
+} \\[15pt] % Contact information font
+
+\centering{ % Center the name
+\fontsize{30pt}{50pt} % Font size
+\fontspec{Lato Light}\selectfont #4 % First name font
+} 
+
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
 \vspace{-5pt} % Reduce whitespace after the rule slightly
 }
